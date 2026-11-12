@@ -1,0 +1,23 @@
+{
+  "source_file": "fake.csv.zip (user-provided)",
+  "source_csv_member": "fake.csv",
+  "rows": 23481,
+  "columns": [
+    "title",
+    "text",
+    "subject",
+    "date"
+  ],
+  "missing_values": {
+    "title": 0,
+    "text": 0,
+    "subject": 0,
+    "date": 0
+  },
+  "blank_title_or_text_rows": 630,
+  "duplicate_title_and_text_rows_after_blank_removal": 5392,
+  "unique_fake_articles_after_cleaning": 17459,
+  "cleaning_definition": "Whitespace normalized; rows with blank title/body removed; exact case-insensitive title+body duplicates removed.",
+  "label_if_combined_with_ISOT": "1 = Fake News",
+  "note": "Inspection only. This file does not contain the real-news class."
+}
